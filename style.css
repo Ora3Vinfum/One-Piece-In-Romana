@@ -1,15 +1,139 @@
+@font-face {
+    font-family: Libre;
+    src: url(LibreBaskerville-Regular.ttf);
+}
+
+body {
+    background-image: url(https://w0.peakpx.com/wallpaper/491/318/HD-wallpaper-sea-sun-cloud-anime-summer-white-sky-blue.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+}
+
 h1 {
     text-align: center;
-    font-family: "EB Garamond", serif;
+    font-family: 'Libre';
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Libre';
+    font-style: italic;
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+.scroll {
+    background-image: url(https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg?semt=ais_hybrid&w=740);
+    background-size: 100% 100%;
+    width: 1150px;
+    margin-left: 1%;
+    overflow-y: scroll;
+    max-height: calc(100vh - 20px) !important;
+    display: block;
+    scrollbar-width: none;
+}
+
+p {
+    padding-left: 10px;
+    text-indent: 50px;
+    font-family: 'Libre';
+    text-decoration-color: aliceblue;
+    padding-right: 10px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    width: 120px;
+    padding: 10px;
+}
+
+.volum {
+    background-color: rgba(240, 248, 255, 0);
+    color: rgba(240, 248, 255, 0);
+    border: none;
+}
+
+.capitole {
+    background-image: url(https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg?semt=ais_hybrid&w=740);
+    background-size: 100% 100%;
+    width: 960px;
+    overflow: hidden;
+    max-height: calc(100vh - 20px) !important;
+    position: fixed;
+    visibility: hidden;
+    top: 375px;
+    transition: top 0.5s;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.open-capitole {
+    visibility: visible;
+    top: 0px;
+}
+
+.image-button {
+    width: 200px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.image-button:hover {
+    width: 230px;
+}
+
+.cover {
+    display: block;
+    float: left;
+    width: 210px;
+    padding: 10px;
+}
+
+.img-cap {
+    display: block;
+    float: left;
+    width: 180px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.imagini {
+    justify-content: center;
+    clear: both;
+}
+
+.inchide {
+    clear: both;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0);
+    background-color: rgba(165, 42, 42, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.aoleu {
+    display: block;
+    width: 150px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 900px;
+    clear: both;
   }
 
 .brothers {
@@ -17,52 +141,9 @@ h1 {
     justify-content: center;
 }
 
-.content-logo {
-    display: flex;
-    justify-content: center;
-    width: 70%;
-  }
-
 .content {
     display: flex;
     justify-content: center;
     padding-left: 20%;
     padding-right: 20%;
-}
-
-.logo {
-    display: block;
-    width: 230px;
-    height: 127px;
-    padding-left: 30%;
-}
-
-.p1 {
-    text-indent: 50px;
-    padding-top: 25px;
-    font-size: large;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-p {
-    font-size: large;
-    text-align: left;
-    text-indent: 50px;
-    padding-left: 30%;
-    padding-right: 30%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.chapters {
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.volum {
-    padding: 25px;
-    width: 10%;
-    float: left;
 }
