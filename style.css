@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     justify-content: center;
     display: flex;
+    overflow-x: scroll;
 }
 
 h1 {
