@@ -88,3 +88,9 @@ function openvolum15() {
 function closevolum15() {
     document.getElementById("Volumul15").classList.remove("open-capitole")
 }
+function openvolum16() {
+    document.getElementById("Volumul16").classList.add("open-capitole")
+}
+function closevolum16() {
+    document.getElementById("Volumul16").classList.remove("open-capitole")
+}
