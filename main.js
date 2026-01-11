@@ -94,3 +94,9 @@ function openvolum16() {
 function closevolum16() {
     document.getElementById("Volumul16").classList.remove("open-capitole")
 }
+function openvolum17() {
+    document.getElementById("Volumul17").classList.add("open-capitole")
+}
+function closevolum17() {
+    document.getElementById("Volumul17").classList.remove("open-capitole")
+}
