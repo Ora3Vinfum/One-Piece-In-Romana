@@ -61,7 +61,7 @@ p {
 .capitole {
     background-image: url(https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg?semt=ais_hybrid&w=740);
     background-size: 100% 100%;
-    width: 960px;
+    width: 85%;
     overflow: hidden;
     max-height: calc(100vh - 20px) !important;
     position: fixed;
